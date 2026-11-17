@@ -1,0 +1,3 @@
+Implementiere das Composite Pattern in Go für eine Dokumentenstruktur: Interface Doc mit Size() int, TxtDoc als Blatt mit fester Größe und Folder als Komposit mit []Doc und AddDoc(Doc). Folder.Size() summiert rekursiv die Größen seiner enthaltenen Dokumente und Unterordner; ein leerer Ordner hat Größe 0.
+
+Demonstriere in main einen Hauptordner mit zwei Textdokumenten der Größen 10 und 50 sowie einem Unterordner mit einem Textdokument der Größe 100. Gib die Gesamtgröße 160 aus. Nutze nur die Go-Standardbibliothek. Erstelle go.mod, den ausführbaren Quellcode, passende Tests und eine kurze README mit Startanleitung und Erklärung der Composite-Rollen. Speichere diesen Prompt unverändert in PROMPT.md und prüfe die Implementierung mit go test ./....
